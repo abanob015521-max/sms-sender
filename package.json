@@ -1,0 +1,22 @@
+{
+  "name": "sms-sender",
+  "version": "1.0.0",
+  "description": "SMS Sender using Telnyx",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "telnyx",
+    "sms",
+    "railway"
+  ],
+  "author": "Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
