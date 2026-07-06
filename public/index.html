@@ -1,1 +1,47 @@
-Hellos 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS Sender</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>📨 SMS Sender</h1>
+
+    <div class="card">
+
+      <label>Phone Number</label>
+      <input
+        type="text"
+        id="phone"
+        placeholder="+201xxxxxxxxx">
+
+      <label>Message</label>
+
+      <textarea
+        id="message"
+        rows="6"
+        placeholder="Write your message..."></textarea>
+
+      <button id="sendBtn">
+        Send SMS
+      </button>
+
+      <div id="status"></div>
+
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
